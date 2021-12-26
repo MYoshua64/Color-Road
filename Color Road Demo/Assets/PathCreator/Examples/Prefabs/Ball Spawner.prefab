@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7839713249213771772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7839713249213771774}
+  - component: {fileID: 7839713249213771775}
+  m_Layer: 0
+  m_Name: Ball Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7839713249213771774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7839713249213771772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7839713249213771775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7839713249213771772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c802b8e48a4ad94c957afdeb2d45931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballToSpawn: 0
+  colorToSpawn: 0
+  path: {fileID: 0}
+  numberOfRows: 3
+  distanceBetweenRows: 1.5
+  distanceBetweenBalls: 0.25
+  scoreBallsPrefabs:
+  - {fileID: 3412899705616024010, guid: eadb1862a0bb16e43a8d553a83ab9411, type: 3}
+  - {fileID: 1162706709508253295, guid: 4f4161c786a4a0b488438e6898fec84c, type: 3}
+  - {fileID: 4048636875957230226, guid: 918c402dcff0caa499458949167110ad, type: 3}
+  bonusBallsPrefabs:
+  - {fileID: 791890339075128976, guid: 77a33d4d8c4fd7748b5b1bbbee34528d, type: 3}
+  - {fileID: 271568976326105537, guid: c4742dad7658a6d4f9d224706ec5fb6a, type: 3}
+  - {fileID: 1936107626195948390, guid: 5008b34a2a2a7ff44b7fca7749c8f01c, type: 3}
+  coinPrefab: {fileID: 8629627845929104823, guid: 5dd74e119cb8391499ee7477009964f3,
+    type: 3}
+  isMoving: 0
+  shouldChangeColor: 0
